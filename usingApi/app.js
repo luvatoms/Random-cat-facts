@@ -62,7 +62,7 @@ async function getFacts(){
 
         try{
         let res = await axios.get(url);//using axios
-       =
+       
         return res.data.fact;
 
         }
